@@ -13,3 +13,7 @@ scheme_code,no_of_units,folio_number
 The script should be executed on python3 shell and script would ask the user to select the portfolio, one can have multiple portfolios like your personal portflio, family portfolio etc.
 
 Once user selects the portfolio number, the latest NAV is downlaoded and current value of investments is shown to the user in an intelligible manner.
+
+The `scheme_code` is to be taken from https://www.amfiindia.com/spages/NAVAll.txt
+The `no_of_units` is the no of units that you have purchased for the particular fund.
+the `folio_number` is your investment folio number (although not required for the script processing as such, but good for tracking purposes.)
